@@ -1,0 +1,42 @@
+.carousel {
+    width:640px;
+    height:360px;
+  }
+
+.h3 {
+    text-align: center;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+ }
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04AA6D;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+    .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
